@@ -1,2 +1,2 @@
 #!/bin/bash
-ls _la | awk
+ls _ln
