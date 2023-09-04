@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head
+ls -lt | awk 'NR <= 10 {print $9}'
